@@ -1,0 +1,767 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="groupBox1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="axTE3DWindow2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="axTE3DWindow2.Enabled" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="axTE3DWindow2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 17</value>
+  </data>
+  <data name="axTE3DWindow2.OcxState" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACFTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5BeEhvc3QrU3RhdGUBAAAABERhdGEHAgIAAAAJAwAAAA8DAAAAXQAAAAIB
+        AAAAAQAAAAAAAAAAAAAAAEgAAAAADAAAI04AAJdGAAATAAAAAAADAAIAAAAIAAIAAAAAABMAAAAAAAgA
+        HAAAAGEAeABUAEUAMwBEAFcAaQBuAGQAbwB3ADIAAAAL
+</value>
+  </data>
+  <data name="axTE3DWindow2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>756, 683</value>
+  </data>
+  <data name="axTE3DWindow2.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;axTE3DWindow2.Name" xml:space="preserve">
+    <value>axTE3DWindow2</value>
+  </data>
+  <data name="&gt;&gt;axTE3DWindow2.Type" xml:space="preserve">
+    <value>AxTerraExplorerX.AxTE3DWindow, AxInterop.TerraExplorerX, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;axTE3DWindow2.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;axTE3DWindow2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>330, 4</value>
+  </data>
+  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>762, 703</value>
+  </data>
+  <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnScanTree.Location" type="System.Drawing.Point, System.Drawing">
+    <value>106, 18</value>
+  </data>
+  <data name="btnScanTree.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 21</value>
+  </data>
+  <data name="btnScanTree.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnScanTree.Text" xml:space="preserve">
+    <value>Scan tree</value>
+  </data>
+  <data name="&gt;&gt;btnScanTree.Name" xml:space="preserve">
+    <value>btnScanTree</value>
+  </data>
+  <data name="&gt;&gt;btnScanTree.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnScanTree.Parent" xml:space="preserve">
+    <value>groupBox4</value>
+  </data>
+  <data name="&gt;&gt;btnScanTree.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnClientData.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 44</value>
+  </data>
+  <data name="btnClientData.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 21</value>
+  </data>
+  <data name="btnClientData.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnClientData.Text" xml:space="preserve">
+    <value>Client data</value>
+  </data>
+  <data name="&gt;&gt;btnClientData.Name" xml:space="preserve">
+    <value>btnClientData</value>
+  </data>
+  <data name="&gt;&gt;btnClientData.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnClientData.Parent" xml:space="preserve">
+    <value>groupBox4</value>
+  </data>
+  <data name="&gt;&gt;btnClientData.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnCreateHierarchy.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 18</value>
+  </data>
+  <data name="btnCreateHierarchy.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 21</value>
+  </data>
+  <data name="btnCreateHierarchy.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="btnCreateHierarchy.Text" xml:space="preserve">
+    <value>Create hierarchy</value>
+  </data>
+  <data name="&gt;&gt;btnCreateHierarchy.Name" xml:space="preserve">
+    <value>btnCreateHierarchy</value>
+  </data>
+  <data name="&gt;&gt;btnCreateHierarchy.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnCreateHierarchy.Parent" xml:space="preserve">
+    <value>groupBox4</value>
+  </data>
+  <data name="&gt;&gt;btnCreateHierarchy.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="groupBox4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 277</value>
+  </data>
+  <data name="groupBox4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>284, 73</value>
+  </data>
+  <data name="groupBox4.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="groupBox4.Text" xml:space="preserve">
+    <value>Project Tree</value>
+  </data>
+  <data name="&gt;&gt;groupBox4.Name" xml:space="preserve">
+    <value>groupBox4</value>
+  </data>
+  <data name="&gt;&gt;groupBox4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox4.Parent" xml:space="preserve">
+    <value>m_cMainTabPage</value>
+  </data>
+  <data name="&gt;&gt;groupBox4.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="m_cPointLayerButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 18</value>
+  </data>
+  <data name="m_cPointLayerButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 21</value>
+  </data>
+  <data name="m_cPointLayerButton.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="m_cPointLayerButton.Text" xml:space="preserve">
+    <value>Point Layer</value>
+  </data>
+  <data name="&gt;&gt;m_cPointLayerButton.Name" xml:space="preserve">
+    <value>m_cPointLayerButton</value>
+  </data>
+  <data name="&gt;&gt;m_cPointLayerButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_cPointLayerButton.Parent" xml:space="preserve">
+    <value>m_cFeatureLayerGroupBox</value>
+  </data>
+  <data name="&gt;&gt;m_cPointLayerButton.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="m_cFeatureLayerGroupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 159</value>
+  </data>
+  <data name="m_cFeatureLayerGroupBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>284, 56</value>
+  </data>
+  <data name="m_cFeatureLayerGroupBox.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="m_cFeatureLayerGroupBox.Text" xml:space="preserve">
+    <value>Feature Layer</value>
+  </data>
+  <data name="&gt;&gt;m_cFeatureLayerGroupBox.Name" xml:space="preserve">
+    <value>m_cFeatureLayerGroupBox</value>
+  </data>
+  <data name="&gt;&gt;m_cFeatureLayerGroupBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_cFeatureLayerGroupBox.Parent" xml:space="preserve">
+    <value>m_cMainTabPage</value>
+  </data>
+  <data name="&gt;&gt;m_cFeatureLayerGroupBox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnJumpTo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>96, 18</value>
+  </data>
+  <data name="btnJumpTo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 21</value>
+  </data>
+  <data name="btnJumpTo.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnJumpTo.Text" xml:space="preserve">
+    <value>Jump to</value>
+  </data>
+  <data name="&gt;&gt;btnJumpTo.Name" xml:space="preserve">
+    <value>btnJumpTo</value>
+  </data>
+  <data name="&gt;&gt;btnJumpTo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnJumpTo.Parent" xml:space="preserve">
+    <value>m_cNavigateGroupBox</value>
+  </data>
+  <data name="&gt;&gt;btnJumpTo.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnGetPosition.Location" type="System.Drawing.Point, System.Drawing">
+    <value>185, 18</value>
+  </data>
+  <data name="btnGetPosition.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 21</value>
+  </data>
+  <data name="btnGetPosition.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnGetPosition.Text" xml:space="preserve">
+    <value>Get position</value>
+  </data>
+  <data name="&gt;&gt;btnGetPosition.Name" xml:space="preserve">
+    <value>btnGetPosition</value>
+  </data>
+  <data name="&gt;&gt;btnGetPosition.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGetPosition.Parent" xml:space="preserve">
+    <value>m_cNavigateGroupBox</value>
+  </data>
+  <data name="&gt;&gt;btnGetPosition.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnFlyTo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 18</value>
+  </data>
+  <data name="btnFlyTo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 21</value>
+  </data>
+  <data name="btnFlyTo.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="btnFlyTo.Text" xml:space="preserve">
+    <value>Fly to</value>
+  </data>
+  <data name="&gt;&gt;btnFlyTo.Name" xml:space="preserve">
+    <value>btnFlyTo</value>
+  </data>
+  <data name="&gt;&gt;btnFlyTo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnFlyTo.Parent" xml:space="preserve">
+    <value>m_cNavigateGroupBox</value>
+  </data>
+  <data name="&gt;&gt;btnFlyTo.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="m_cNavigateGroupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 222</value>
+  </data>
+  <data name="m_cNavigateGroupBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>284, 50</value>
+  </data>
+  <data name="m_cNavigateGroupBox.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="m_cNavigateGroupBox.Text" xml:space="preserve">
+    <value>Navigate</value>
+  </data>
+  <data name="&gt;&gt;m_cNavigateGroupBox.Name" xml:space="preserve">
+    <value>m_cNavigateGroupBox</value>
+  </data>
+  <data name="&gt;&gt;m_cNavigateGroupBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_cNavigateGroupBox.Parent" xml:space="preserve">
+    <value>m_cMainTabPage</value>
+  </data>
+  <data name="&gt;&gt;m_cNavigateGroupBox.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnEdit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>195, 20</value>
+  </data>
+  <data name="btnEdit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 21</value>
+  </data>
+  <data name="btnEdit.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="btnEdit.Text" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="&gt;&gt;btnEdit.Name" xml:space="preserve">
+    <value>btnEdit</value>
+  </data>
+  <data name="&gt;&gt;btnEdit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnEdit.Parent" xml:space="preserve">
+    <value>m_cCreatorGroupBox</value>
+  </data>
+  <data name="&gt;&gt;btnEdit.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnComplex3DPolygon.Location" type="System.Drawing.Point, System.Drawing">
+    <value>106, 52</value>
+  </data>
+  <data name="btnComplex3DPolygon.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 21</value>
+  </data>
+  <data name="btnComplex3DPolygon.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="btnComplex3DPolygon.Text" xml:space="preserve">
+    <value>Complex Polygon</value>
+  </data>
+  <data name="&gt;&gt;btnComplex3DPolygon.Name" xml:space="preserve">
+    <value>btnComplex3DPolygon</value>
+  </data>
+  <data name="&gt;&gt;btnComplex3DPolygon.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnComplex3DPolygon.Parent" xml:space="preserve">
+    <value>m_cCreatorGroupBox</value>
+  </data>
+  <data name="&gt;&gt;btnComplex3DPolygon.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="m_cGeometryPolygon.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 52</value>
+  </data>
+  <data name="m_cGeometryPolygon.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 21</value>
+  </data>
+  <data name="m_cGeometryPolygon.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="m_cGeometryPolygon.Text" xml:space="preserve">
+    <value>Polygon</value>
+  </data>
+  <data name="&gt;&gt;m_cGeometryPolygon.Name" xml:space="preserve">
+    <value>m_cGeometryPolygon</value>
+  </data>
+  <data name="&gt;&gt;m_cGeometryPolygon.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_cGeometryPolygon.Parent" xml:space="preserve">
+    <value>m_cCreatorGroupBox</value>
+  </data>
+  <data name="&gt;&gt;m_cGeometryPolygon.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="m_cCreateLabelButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>106, 20</value>
+  </data>
+  <data name="m_cCreateLabelButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 21</value>
+  </data>
+  <data name="m_cCreateLabelButton.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="m_cCreateLabelButton.Text" xml:space="preserve">
+    <value>Text Label</value>
+  </data>
+  <data name="&gt;&gt;m_cCreateLabelButton.Name" xml:space="preserve">
+    <value>m_cCreateLabelButton</value>
+  </data>
+  <data name="&gt;&gt;m_cCreateLabelButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_cCreateLabelButton.Parent" xml:space="preserve">
+    <value>m_cCreatorGroupBox</value>
+  </data>
+  <data name="&gt;&gt;m_cCreateLabelButton.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="m_cCreateCircleButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 20</value>
+  </data>
+  <data name="m_cCreateCircleButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 21</value>
+  </data>
+  <data name="m_cCreateCircleButton.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="m_cCreateCircleButton.Text" xml:space="preserve">
+    <value>Circle</value>
+  </data>
+  <data name="&gt;&gt;m_cCreateCircleButton.Name" xml:space="preserve">
+    <value>m_cCreateCircleButton</value>
+  </data>
+  <data name="&gt;&gt;m_cCreateCircleButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_cCreateCircleButton.Parent" xml:space="preserve">
+    <value>m_cCreatorGroupBox</value>
+  </data>
+  <data name="&gt;&gt;m_cCreateCircleButton.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="m_cCreatorGroupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 67</value>
+  </data>
+  <data name="m_cCreatorGroupBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>284, 86</value>
+  </data>
+  <data name="m_cCreatorGroupBox.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="m_cCreatorGroupBox.Text" xml:space="preserve">
+    <value>Creator</value>
+  </data>
+  <data name="&gt;&gt;m_cCreatorGroupBox.Name" xml:space="preserve">
+    <value>m_cCreatorGroupBox</value>
+  </data>
+  <data name="&gt;&gt;m_cCreatorGroupBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_cCreatorGroupBox.Parent" xml:space="preserve">
+    <value>m_cMainTabPage</value>
+  </data>
+  <data name="&gt;&gt;m_cCreatorGroupBox.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="m_cOpenProjectButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 18</value>
+  </data>
+  <data name="m_cOpenProjectButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 21</value>
+  </data>
+  <data name="m_cOpenProjectButton.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="m_cOpenProjectButton.Text" xml:space="preserve">
+    <value>Open Project</value>
+  </data>
+  <data name="&gt;&gt;m_cOpenProjectButton.Name" xml:space="preserve">
+    <value>m_cOpenProjectButton</value>
+  </data>
+  <data name="&gt;&gt;m_cOpenProjectButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_cOpenProjectButton.Parent" xml:space="preserve">
+    <value>m_cProjectGroupBox</value>
+  </data>
+  <data name="&gt;&gt;m_cOpenProjectButton.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="m_cProjectGroupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 6</value>
+  </data>
+  <data name="m_cProjectGroupBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>284, 56</value>
+  </data>
+  <data name="m_cProjectGroupBox.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="m_cProjectGroupBox.Text" xml:space="preserve">
+    <value>Project</value>
+  </data>
+  <data name="&gt;&gt;m_cProjectGroupBox.Name" xml:space="preserve">
+    <value>m_cProjectGroupBox</value>
+  </data>
+  <data name="&gt;&gt;m_cProjectGroupBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_cProjectGroupBox.Parent" xml:space="preserve">
+    <value>m_cMainTabPage</value>
+  </data>
+  <data name="&gt;&gt;m_cProjectGroupBox.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="m_cMainTabPage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="m_cMainTabPage.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="m_cMainTabPage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>296, 419</value>
+  </data>
+  <data name="m_cMainTabPage.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="m_cMainTabPage.Text" xml:space="preserve">
+    <value>Operations</value>
+  </data>
+  <data name="&gt;&gt;m_cMainTabPage.Name" xml:space="preserve">
+    <value>m_cMainTabPage</value>
+  </data>
+  <data name="&gt;&gt;m_cMainTabPage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_cMainTabPage.Parent" xml:space="preserve">
+    <value>m_cOperationsTabControl</value>
+  </data>
+  <data name="&gt;&gt;m_cMainTabPage.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="m_cOperationsTabControl.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="m_cOperationsTabControl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 17</value>
+  </data>
+  <data name="m_cOperationsTabControl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>304, 445</value>
+  </data>
+  <data name="m_cOperationsTabControl.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;m_cOperationsTabControl.Name" xml:space="preserve">
+    <value>m_cOperationsTabControl</value>
+  </data>
+  <data name="&gt;&gt;m_cOperationsTabControl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_cOperationsTabControl.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;m_cOperationsTabControl.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="groupBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 4</value>
+  </data>
+  <data name="groupBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>310, 465</value>
+  </data>
+  <data name="groupBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Name" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="groupBox3.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left</value>
+  </data>
+  <data name="axTEInformationWindow2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="axTEInformationWindow2.Enabled" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="axTEInformationWindow2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 17</value>
+  </data>
+  <data name="axTEInformationWindow2.OcxState" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACFTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5BeEhvc3QrU3RhdGUBAAAABERhdGEHAgIAAAAJAwAAAA8DAAAAOQAAAAIB
+        AAAAAQAAAAAAAAAAAAAAACQAAAAADAAAhh8AAG0WAAATAAAAAAADAAIAAAATAAAAAAAIAAAAAAAL
+</value>
+  </data>
+  <data name="axTEInformationWindow2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>305, 217</value>
+  </data>
+  <data name="axTEInformationWindow2.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;axTEInformationWindow2.Name" xml:space="preserve">
+    <value>axTEInformationWindow2</value>
+  </data>
+  <data name="&gt;&gt;axTEInformationWindow2.Type" xml:space="preserve">
+    <value>AxTerraExplorerX.AxTEInformationWindow, AxInterop.TerraExplorerX, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;axTEInformationWindow2.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;axTEInformationWindow2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="groupBox3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 470</value>
+  </data>
+  <data name="groupBox3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>311, 237</value>
+  </data>
+  <data name="groupBox3.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;groupBox3.Name" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;groupBox3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupBox3.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>zh-CN</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 12</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1097, 692</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Form1</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>MainForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
